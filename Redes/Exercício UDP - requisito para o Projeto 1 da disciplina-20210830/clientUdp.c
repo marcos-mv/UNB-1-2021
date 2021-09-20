@@ -28,10 +28,10 @@ int main()
     servaddr.sin_addr.s_addr = inet_addr("127.0.0.1");
     servaddr.sin_port = 6006;
 
-    printf("Entre com uma operação:\n +:Adicao \n -: Subtracao \n *:Multiplicacao \n /: Divisao \n");
-    scanf("%c", &operador);
-    printf("Entre com os dois operandos:\n");
-    scanf("%d %d", &op1, &op2);
+    // printf("Entre com uma operação:\n +:Adicao \n -: Subtracao \n *:Multiplicacao \n /: Divisao \n");
+    // scanf("%c", &operador);
+    // printf("Entre com os dois operandos:\n");
+    // scanf("%d %d", &op1, &op2);
 
     sendto(
         sockfd, 

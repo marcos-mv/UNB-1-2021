@@ -8,7 +8,7 @@ aux = 0
 aux1 = 0
 primos = []                     
 
-while numero > 1:           #função que verifica se o numero é primo e se for adiciona na lista de primos
+while numero > 1:           #função que verifica se o numero dentro do intervalo é primo e se for adiciona na lista de primos
     aux = sqrt(numero)
     aux = int(aux)
     aux1 = 0
