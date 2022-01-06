@@ -1,9 +1,9 @@
 from math import prod, sqrt
 
-lista = [1,2,3,4,5]         #sequencia finita
+lista = [1,1,1,1,1,1,1,1,1]         #sequencia finita
 tamanho = len(lista)        #tamanho da lista
 
-numero = 12                 # é igual ao intervalo de [0 a numero] que vai ser considerado para encontrar os primos
+numero = 23                 # é igual ao intervalo de [0 a numero] que vai ser considerado para encontrar os primos
 aux = 0
 aux1 = 0
 primos = []                     
